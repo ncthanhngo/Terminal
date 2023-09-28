@@ -1,0 +1,9 @@
+Fix loi Git tren Ubuntu:
+https://200lab.io/blog/cach-giai-quyet-loi-password-authentication-github/
+
+git config credential.helper store
+
+ssh-keygen -t rsa
+
+
+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

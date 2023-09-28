@@ -1,0 +1,17 @@
+git config --global user.name "ncthanhngo"
+git config --global user.email "nc.thanhngo@gmail.com"
+git config -l
+
+git add .
+git commit -m "update"
+git push origin master
+
+git pull origin master
+
+git log
+
+
+#Create SSH key Github
+ssh-keygen -t ed25519 -C "nc.thanhngo@gmail.com"
+# Noi luu key
+/home/kafka/.ssh/id_ed25519
