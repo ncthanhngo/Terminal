@@ -1,0 +1,13 @@
+cd /etc/mysql/mysql.conf.d
+
+nano mysqld.cnf >> 127.0.0.1 >> 0.0.0.0
+
+sudo mysql -u root -p
+
+create user  'Thanh'@'%' with myqls_native_password by '11223344';
+
+grant all on *.* to 'Thanh'@'%';
+
+flush privileges;
+
+systemctl restart mysql.service
